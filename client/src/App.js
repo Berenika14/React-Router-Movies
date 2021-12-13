@@ -44,7 +44,7 @@ export default function App() {
       />
       <Switch>
         <Route path="/">
-          <MovieList movie={movie} />
+          <MovieList movies={movieList} />
         </Route>
       </Switch>
     </div>
