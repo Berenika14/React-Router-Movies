@@ -6,14 +6,13 @@ import {
   useRouteMatch,
   Switch,
   useHistory,
+  Router,
 } from "react-router";
 
 export default function Movie(props) {
   const [movie, setMovie] = useState();
   const { id } = useParams();
   const { movies } = props;
-  const history = useHistory();
-  const { url } = useRouteMatch;
 
   //let id = 1;
   // Change ^^^ that line and use a hook to obtain the :id parameter from the URL

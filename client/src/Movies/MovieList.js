@@ -17,7 +17,7 @@ function MovieDetails(props) {
   const { title, director, metascore } = props.movie;
   //console.log(props.movie);
   const { url } = useRouteMatch();
-  console.log(url);
+  //console.log(url);
 
   return (
     <div className="movie-card">
